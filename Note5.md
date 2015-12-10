@@ -67,12 +67,22 @@ Observable.just("1","2","2","3","4","5")
 ```
 再想想如果不用RxJava，各种嵌套if else，说实话这是我第一次体会到RxJava的好处。另外Java8也是神器，原本Java繁琐的语法一下变得简单，下一步就是要去学习Java8新特性了。
 
+## 补充之前的一点
+当调用Obeservable.subscibe(subscriber)时，会返回一个Subscription对象，这个对象代表了被观察者和订阅者的关系
+Subscription subscription = Obeservable.just("Hello")
+  .subscibe(s -> system.out.println(s));
+
+可以在Activity的onPause()中使用 subscription.unsubscribe();停止被观察者和订阅者的关系以防止内存泄露的问题。
+
 ## 小结
 到这总算有了一个还不错的使用场景（还不错是指接近实际生产环境，且能够体现出RxJava优势的使用场景），应该来说对RxJava能有个比较清晰的认识了。另外根据大头鬼的总结，RxJava的使用场景为：
-### 出现多层嵌套回调
-### 复杂的数据处理
-### 响应式UI
-### 复杂的线程切换
+1.出现多层嵌套回调
+
+2.复杂的数据处理
+
+3.响应式UI
+
+4.复杂的线程切换
 
 ## 视频地址
 [大头鬼的RxJava视频](http://boolan.com/lecture/1000001243#0-tsina-1-68759-397232819ff9a47a7b7e80a40613cfe1)
