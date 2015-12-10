@@ -8,3 +8,5 @@ Rx学习笔记
 [学习笔记3](https://github.com/basti-shi031/RxJava-Notes/blob/master/Note3.md)
 
 [学习笔记4](https://github.com/basti-shi031/RxJava-Notes/blob/master/Note4.md)
+
+[学习笔记5](https://github.com/basti-shi031/RxJava-Notes/blob/master/Note5.md)
