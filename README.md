@@ -12,4 +12,6 @@ Rx学习笔记
 [学习笔记5](https://github.com/basti-shi031/RxJava-Notes/blob/master/Note5.md)
 
 
-[这是篇好文章](http://www.jianshu.com/p/943ceaccfdff)
+[待阅读的文章1-简要分析RxWeather项目](http://www.jianshu.com/p/943ceaccfdff)
+
+[待阅读的文章2- RxJava使用场景小结 作者：大头鬼](http://android.jobbole.com/82241/)
